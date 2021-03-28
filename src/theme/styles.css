@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #25313f;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  position: sticky;
+  width: 100vw;
+  height: 100vh;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 6rem;
+  color: #ed435e;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  position: fixed;
+  bottom: 100px;
+  right: 200px;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+li {
+  width: 300px;
+  background: white;
+  margin: 10px;
+  flex: 0 0 100px;
+  position: relative;
+  border-radius: 10px;
+}
+
+button {
+  outline: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+button.clean {
+  position: fixed;
+  bottom: 260px;
+  left: 200px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 28px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.remove {
+  position: fixed;
+  bottom: 180px;
+  left: 200px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 28px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.add {
+  position: fixed;
+  bottom: 100px;
+  left: 200px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 28px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.close {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  background: white;
+  color: #ed435e;
+  font-size: 24px;
+  border: none;
+}
+
+a.next {
+  font-size: 36px;
+  border: none;
+}
